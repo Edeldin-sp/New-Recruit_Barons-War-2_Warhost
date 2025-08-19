@@ -1353,6 +1353,22 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Orc Faction" hidden="false" id="orcs-salvajes-trait">
+      <profiles>
+        <profile name="Feudal european trait" typeId="3f4e-da68-2a7f-12ed" typeName="Faction trait" hidden="false" id="9bad-95ef-0d71-8c89">
+          <characteristics>
+            <characteristic name="Name" typeId="24f7-e0d4-9c72-4cd7">CAVALRY WARFARE: FIRST CHARGE</characteristic>
+            <characteristic name="Abilitie" typeId="7af7-f033-776c-f094">The first time in each game that a Group of mounted Knights declares a Charge, it automatically gains the Close Ranks Ability provided it is not Weary and Charges at least 6”.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Feudal european trait" typeId="3f4e-da68-2a7f-12ed" typeName="Faction trait" hidden="false" id="fcea-951d-4584-9f08">
+          <characteristics>
+            <characteristic name="Name" typeId="24f7-e0d4-9c72-4cd7">INFANTRY SCREEN</characteristic>
+            <characteristic name="Abilitie" typeId="7af7-f033-776c-f094">When a Group of Mounted Knights declares a Charge, it can draw Line of Sight through a single friendly infantry Group.  This Infantry Group must take an Order check: if it passes, the Knights may move completely through it (the warriors are assumed to get out of the way and then resume their position) and the Infantry take a Morale Penalty. If the Group fails, the Knights may still move completely through it but the Infantry Group takes 1d3 casualties (and Morale Penalties).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Attack back" hidden="false" id="adb4-5f95-c930-03cd">
       <profiles>
         <profile name="Attack back" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="6d9c-0d3e-0a56-0360">
