@@ -1,45 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="BW2-orcos-salvajes" name="Orcos Salvajes" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="18e3-b985-9231-8295" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Guerrero Orco" hidden="false" id="orcs-guerrero-orco">
+    <selectionEntry id="ab6d-cec3-152b-7afd" name="Guerrero Orco" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+      </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Guerrero Orco" hidden="false" id="orcs-guerrero-orco-model">
+        <selectionEntry type="model" import="true" name="knight" hidden="false" id="066b-3872-2da5-f18b" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Experiencia" hidden="false" id="orcs-guerrero-orco-exp" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1" collective="true">
-              <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <entryLink import="true" name="Knight Experience level" hidden="false" id="f4bc-c8ce-eaf9-01d7" type="selectionEntryGroup" targetId="73aa-dacd-a950-9ea2" collective="true" sortIndex="1"/>
+            <entryLink import="true" name="Knight Weapon" hidden="false" id="684a-1e35-e2b9-aa19" type="selectionEntryGroup" targetId="30c4-4c31-7104-9a85" sortIndex="2"/>
+            <entryLink import="true" name="Mail" hidden="false" id="6b12-9638-65d6-680e" type="selectionEntry" targetId="b805-5e69-0339-2595" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a79d-bbd0-8d7c-81b3-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a79d-bbd0-8d7c-81b3-max" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
-            <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85" collective="true"/>
-            <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2" collective="true"/>
-            <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af" collective="true"/>
+            <entryLink import="true" name="Knight shield" hidden="false" id="1354-3272-071a-154c" type="selectionEntryGroup" targetId="d1c8-2bad-3f64-096c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54c7-a94b-c292-bc13" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aad-464e-2595-5a88" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="orcs-guerrero-orco-constraint"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="80ab-792f-6bbb-30b4"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="cat_orcs_basicas" id="cat_orcs_basicas-id" primary="true" name="Tropas básicas"/>
+        <categoryLink targetId="31dd-0fdb-79bb-5162" id="9b07-a4db-0d5c-6c89" primary="true" name="Warriors (Tier1)"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="d59a-e94e-869b-8c33" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
+        <entryLink import="true" name="Knight Inherent Abilities" hidden="false" id="8792-1caf-a604-4c31" type="selectionEntryGroup" targetId="0e37-2a3e-7531-dbba" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Feudal European abilities" hidden="false" id="b5ef-12e5-e898-a6ab" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fbf-4bde-0b6c-6449" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a827-26eb-c92e-5f80" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Levy inherent abilitie" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true"/>
+        <entryLink import="true" name="Commandgroup" hidden="false" id="f1e6-e70c-d5eb-1764" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5" sortIndex="1">
+          <modifiers>
+            <modifier type="add" value="2c08-30a5-a557-882a" field="category" scope="parent" affects="self.entries.forces.recursive">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="upgrade" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Orcos Salvajes" hidden="false" id="orcs-salvajes-link" type="selectionEntry" targetId="orcs-salvajes-trait">
+    <entryLink import="true" name="Feudal european faction" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
       <categoryLinks>
-        <categoryLink targetId="51de-724e-3e29-3c7a" id="cat_orcs-salvajes-id" primary="true" name="Faction"/>
+        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
