@@ -54,9 +54,8 @@
     <categoryEntry id="31dd-0fdb-79bb-5162" name="Warriors (Tier1)" hidden="false"/>
     <categoryEntry id="cd4c-842d-9dc6-02a8" name="Lord (Tier2)" hidden="false"/>
     <categoryEntry id="e069-c059-b935-c3ac" name="Baron (Tier3)" hidden="false"/>
-    <categoryEntry name="Faction" id="51de-724e-3e29-3c7a" hidden="false">
     <!-- ORCOS SALVAJES -->
-    <categoryEntry id="cat_orcos-salvajes" name="Orcos Salvajes" hidden="false"/>
+    <categoryEntry id="cat_orcs-salvajes" name="Orcos Salvajes" hidden="false"/>
     <categoryEntry id="cat_orcs_heroes" name="Héroes" hidden="false"/>
     <categoryEntry id="cat_orcs_basicas" name="Tropas básicas" hidden="false"/>
     <categoryEntry id="cat_orcs_especiales" name="Tropas especiales" hidden="false"/>
