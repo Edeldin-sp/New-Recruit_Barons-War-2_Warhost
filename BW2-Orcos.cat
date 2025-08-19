@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="BW2-orcos-salvajes" name="Orcos Salvajes" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="18e3-b985-9231-8295" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
-    <!-- ORCOS SALVAJES -->
-    <selectionEntry type="unit" import="true" name="Guerrero Orco" hidden="false" id="07b7-519c-f700-71a3">
+    <selectionEntry type="unit" import="true" name="Guerrero Orco" hidden="false" id="orcs-guerrero-orco">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Guerrero Orco" hidden="false" id="1806-1295-993b-2e0e">
+        <selectionEntry type="model" import="true" name="Guerrero Orco" hidden="false" id="orcs-guerrero-orco-model">
           <entryLinks>
-            <entryLink import="true" name="Experiencia" hidden="false" id="0296-ae97-b7a7-4e4f" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1" collective="true">
+            <entryLink import="true" name="Experiencia" hidden="false" id="orcs-guerrero-orco-exp" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1" collective="true">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -20,12 +19,12 @@
             <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af" collective="true"/>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="05ed-2fa7-c6bb-1557"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="orcs-guerrero-orco-constraint"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="cat_orcs_basicas" id="ce0e-435d-0561-50de" primary="true" name="Tropas básicas"/>
+        <categoryLink targetId="cat_orcs_basicas" id="cat_orcs_basicas-id" primary="true" name="Tropas básicas"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Feudal European abilities" hidden="false" id="d59a-e94e-869b-8c33" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
@@ -36,7 +35,6 @@
         <entryLink import="true" name="Levy inherent abilitie" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true"/>
       </entryLinks>
     </selectionEntry>
-    <!-- ===================== -->
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Orcos Salvajes" hidden="false" id="orcos-salvajes-link" type="selectionEntry" targetId="1cf4-0117-8176-16be">
