@@ -4,7 +4,7 @@
     <publication id="5fd6-9a6b-eead-8066" name="Barons War 2nd edition main rulebook"/>
   </publications>
   <costTypes>
-    <costType id="f655-59ab-f98e-f417" name=" Points" defaultCostLimit="-1" hidden="false"/>
+    <costType id="f655-59ab-f98e-f417" name=" Points" defaultCostLimit="500" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="3878-a396-f85a-9d37" name="Unit">
@@ -32,64 +32,50 @@
         <characteristicType id="1997-faf8-6fe9-e619" name="Effect"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Mount" id="bdca-3fcc-9f84-9e76" hidden="false">
+    <profileType  id="bdca-3fcc-9f84-9e76" hidden="false" name="Mount">
       <characteristicTypes>
         <characteristicType name="Modifier" id="4e4d-ef3e-cc21-857d"/>
         <characteristicType name="Effect" id="5ad9-e718-b665-3dc8"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Faction trait" id="3f4e-da68-2a7f-12ed" hidden="false">
+    <profileType id="3f4e-da68-2a7f-12ed" hidden="false" name="Faction trait">
       <characteristicTypes>
         <characteristicType name="Name" id="24f7-e0d4-9c72-4cd7"/>
         <characteristicType name="Abilitie" id="7af7-f033-776c-f094"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Ability" id="6dce-48d1-461b-e4d2" hidden="false">
+    <profileType id="6dce-48d1-461b-e4d2" hidden="false" name="Ability">
       <characteristicTypes>
         <characteristicType name="Effect" id="7537-0316-be9f-ca83"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <!-- ===================== -->
     <!-- ORCOS SALVAJES -->
-    <!-- ===================== -->
-    <categoryEntry id="cat-OrcosSalvajes" name="Orcos Salvajes" hidden="false"/>
+    <categoryEntry id="cat_orcos-salvajes" name="Orcos Salvajes" hidden="false"/>
     <categoryEntry id="cat-Orcos-Heroes" name="Héroes" hidden="false"/>
     <categoryEntry id="cat-Orcos-Basicas" name="Tropas básicas" hidden="false"/>
     <categoryEntry id="cat-Orcos-Especiales" name="Tropas especiales" hidden="false"/>
     <categoryEntry id="cat-Orcos-Rasgos" name="Rasgos" hidden="false"/>
-
-    <!-- ===================== -->
     <!-- ALTOS ELFOS -->
-    <!-- ===================== -->
     <categoryEntry id="cat-AltosElfos" name="Altos Elfos" hidden="false"/>
     <categoryEntry id="cat-AltosElfos-Heroes" name="Héroes" hidden="false"/>
     <categoryEntry id="cat-AltosElfos-Basicas" name="Tropas básicas" hidden="false"/>
     <categoryEntry id="cat-AltosElfos-Especiales" name="Tropas especiales" hidden="false"/>
     <categoryEntry id="cat-AltosElfos-Rasgos" name="Rasgos" hidden="false"/>
-
-    <!-- ===================== -->
     <!-- CLANES ENANOS -->
-    <!-- ===================== -->
     <categoryEntry id="cat-ClanesEnanos" name="Clanes Enanos" hidden="false"/>
     <categoryEntry id="cat-ClanesEnanos-Heroes" name="Héroes" hidden="false"/>
     <categoryEntry id="cat-ClanesEnanos-Basicas" name="Tropas básicas" hidden="false"/>
     <categoryEntry id="cat-ClanesEnanos-Especiales" name="Tropas especiales" hidden="false"/>
     <categoryEntry id="cat-ClanesEnanos-Rasgos" name="Rasgos" hidden="false"/>
-
-    <!-- ===================== -->
     <!-- REINOS LIBRES -->
-    <!-- ===================== -->
     <categoryEntry id="cat-ReinosLibres" name="Reinos Libres" hidden="false"/>
     <categoryEntry id="cat-ReinosLibres-Heroes" name="Héroes" hidden="false"/>
     <categoryEntry id="cat-ReinosLibres-Basicas" name="Tropas básicas" hidden="false"/>
     <categoryEntry id="cat-ReinosLibres-Especiales" name="Tropas especiales" hidden="false"/>
     <categoryEntry id="cat-ReinosLibres-Rasgos" name="Rasgos" hidden="false"/>
-
-    <!-- ===================== -->
     <!-- REINO MALDITO -->
-    <!-- ===================== -->
     <categoryEntry id="cat-ReinoMaldito" name="Reino Maldito" hidden="false"/>
     <categoryEntry id="cat-ReinoMaldito-Heroes" name="Héroes" hidden="false"/>
     <categoryEntry id="cat-ReinoMaldito-Basicas" name="Tropas básicas" hidden="false"/>
