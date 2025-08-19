@@ -705,7 +705,22 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Feudal european faction" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
+    <entryLink import="true" name="Orcos - Arrogancia" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
+      <categoryLinks>
+        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orcos - Odio" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
+      <categoryLinks>
+        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Elfos - Reflejos éficos" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
+      <categoryLinks>
+        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Elfos - Maestros estrategas" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
       <categoryLinks>
         <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
       </categoryLinks>
