@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="18e3-b985-9231-8295" name="Barons war 2nd edition" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" library="true">
+<gameSystem id="18e3-b985-9231-8295" name="Barons war 2E - Warhost" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" library="true">
   <publications>
     <publication id="5fd6-9a6b-eead-8066" name="Barons War 2nd edition main rulebook"/>
   </publications>
