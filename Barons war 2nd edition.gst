@@ -63,10 +63,10 @@
   <forceEntries>
     <forceEntry id="394a-4b44-0747-7e81" name="Retinue" hidden="false">
       <categoryLinks>
-        <categoryLink name="Básicas" hidden="false" id="bcca-77de-6388-af55" targetId="31dd-0fdb-79bb-5162"/>
-        <categoryLink name="Especiales" hidden="false" id="3025-9bda-93d7-adc9" targetId="cd4c-842d-9dc6-02a8"/>
+        <categoryLink name="Tropas Básicas" hidden="false" id="bcca-77de-6388-af55" targetId="31dd-0fdb-79bb-5162"/>
+        <categoryLink name="Tropas Especiales" hidden="false" id="3025-9bda-93d7-adc9" targetId="cd4c-842d-9dc6-02a8"/>
         <categoryLink name="Héroes" hidden="false" id="9df8-ec9d-1c92-d9f7" targetId="e069-c059-b935-c3ac"/>
-        <categoryLink name="Faction" hidden="false" id="ab46-d238-0d17-81e4" targetId="51de-724e-3e29-3c7a"/>
+        <categoryLink name="Facción" hidden="false" id="ab46-d238-0d17-81e4" targetId="51de-724e-3e29-3c7a"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1924,13 +1924,13 @@ If this movement takes the Group off the table, it plays no further part in the�
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="orc-war-exp-level" name="Orc Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="e666-8a78-cef7-64ba">
+    <selectionEntryGroup id="orc-war-exp-level" name="Orc Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="orc-war-exp-level-g">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="700e-4a68-bcb6-eb54" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cfc-663c-cc8d-b4ae" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="orc-war-exp-level-g" name="Green(Tier1)" hidden="false" collective="true" import="true" targetId="17e5-9956-9cf5-e356" type="selectionEntry">
+        <entryLink id="orc-war-exp-level-g" name="Green(Tier1)" hidden="false" collective="true" import="true" targetId="79f3-6040-fe4c-eb2e" type="selectionEntry">
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="10"/>
           </costs>
