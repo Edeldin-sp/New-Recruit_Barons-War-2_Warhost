@@ -1,3 +1,3 @@
-Hi all,
+Hola a todos,
 
-I made a repository for BaronsWar second edition Warhost so you can make your lists in NewRecruit
+Estoy haciendo una adaptación del Army Builder de Barons' War 2E del usuario blackhol para Warhost (el suplemento de fantasía de Barons' war).
