@@ -53,10 +53,10 @@
   <categoryEntries>
     <!-- ORCOS SALVAJES -->
     <categoryEntry id="cat_orcos-salvajes" name="Orcos Salvajes" hidden="false"/>
-    <categoryEntry id="cat-Orcos-Heroes" name="Héroes" hidden="false"/>
-    <categoryEntry id="cat-Orcos-Basicas" name="Tropas básicas" hidden="false"/>
-    <categoryEntry id="cat-Orcos-Especiales" name="Tropas especiales" hidden="false"/>
-    <categoryEntry id="cat-Orcos-Rasgos" name="Rasgos" hidden="false"/>
+    <categoryEntry id="cat_orcs_heroes" name="Héroes" hidden="false"/>
+    <categoryEntry id="cat_orcs_basicas" name="Tropas básicas" hidden="false"/>
+    <categoryEntry id="cat_orcs_especiales" name="Tropas especiales" hidden="false"/>
+    <categoryEntry id="cat_orcs_rasgos" name="Rasgos" hidden="false"/>
     <!-- ALTOS ELFOS -->
     <categoryEntry id="cat-AltosElfos" name="Altos Elfos" hidden="false"/>
     <categoryEntry id="cat-AltosElfos-Heroes" name="Héroes" hidden="false"/>

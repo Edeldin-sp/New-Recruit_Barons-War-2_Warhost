@@ -450,7 +450,7 @@
         <entryLink import="true" name="Baron inherent abilities" hidden="false" id="b9ca-f3ec-59c0-243d" type="selectionEntryGroup" targetId="a268-b21a-64f9-38ea"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="e069-c059-b935-c3ac" id="180a-371c-4425-7ed2" primary="true" name="Baron (Tier3)"/>
+        <categoryLink targetId="cat_orcs_heroes" id="cat_orcs_heroes-id" primary="true" name="Héroes"/>
         <categoryLink targetId="2c08-30a5-a557-882a" id="d66b-03a5-5bd8-2960" primary="false" name="Commanders and Command Groups."/>
       </categoryLinks>
     </selectionEntry>
