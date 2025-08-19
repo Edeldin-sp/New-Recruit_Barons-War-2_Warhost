@@ -703,24 +703,47 @@
         <categoryLink targetId="2c08-30a5-a557-882a" id="8dc7-8a87-cde7-1ec2" primary="false" name="Commanders and Command Groups."/>
       </categoryLinks>
     </selectionEntry>
+    <!-- ===================== -->
+    <!-- ORCOS SALVAJES -->
+    <!-- ===================== -->
+    <selectionEntry type="unit" import="true" name="Guerrero Orco" hidden="false" id="Orcos-GuerreroOrco">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Levy" hidden="false" id="1806-1295-993b-2e0e">
+          <entryLinks>
+            <entryLink import="true" name="Nivel de experiencia" hidden="false" id="Orco-Guerrero-nivel-experiencia" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1" collective="true">
+              <modifiers>
+                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Guerrero Orco escudo" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85" collective="true"/>
+            <entryLink import="true" name="Guerrero Orco arma de mano" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2" collective="true"/>
+            <entryLink import="true" name="Guerrero Orco lanza" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af" collective="true"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="Guerrero-Orco-constraint"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="cat-Orcos-Basicas" id="Orcos-GuerreroOrco-id" primary="true" name="Tropas Básicas"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Habilidades Salvajes" hidden="false" id="Orcos-Salvajes-Habilidades" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fbf-4bde-0b6c-6449" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Odio Salvaje" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true"/>
+      </entryLinks>
+    </selectionEntry>
+    <!-- ===================== -->
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Orcos - Arrogancia" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
-      <categoryLinks>
-        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Orcos - Odio" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
-      <categoryLinks>
-        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Elfos - Reflejos éficos" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
-      <categoryLinks>
-        <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Elfos - Maestros estrategas" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
       <categoryLinks>
         <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
       </categoryLinks>
