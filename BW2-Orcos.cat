@@ -29,7 +29,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="31dd-0fdb-79bb-5162" id="9b07-a4db-0d5c-6c89" primary="true" name="Warriors (Tier1)"/>
+        <categoryLink targetId="31dd-0fdb-79bb-5162" id="9b07-a4db-0d5c-6c89" primary="true" name="Básicas"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Knight Inherent Abilities" hidden="false" id="8792-1caf-a604-4c31" type="selectionEntryGroup" targetId="0e37-2a3e-7531-dbba" collective="true" sortIndex="3"/>

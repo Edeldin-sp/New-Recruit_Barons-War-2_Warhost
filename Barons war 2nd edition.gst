@@ -51,9 +51,9 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="31dd-0fdb-79bb-5162" name="Warriors (Tier1)" hidden="false"/>
-    <categoryEntry id="cd4c-842d-9dc6-02a8" name="Lord (Tier2)" hidden="false"/>
-    <categoryEntry id="e069-c059-b935-c3ac" name="Baron (Tier3)" hidden="false"/>
+    <categoryEntry id="31dd-0fdb-79bb-5162" name="Básicas" hidden="false"/>
+    <categoryEntry id="cd4c-842d-9dc6-02a8" name="Especiales" hidden="false"/>
+    <categoryEntry id="e069-c059-b935-c3ac" name="Héroes" hidden="false"/>
     <categoryEntry name="Faction" id="51de-724e-3e29-3c7a" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce93-8aaf-c086-d7aa" includeChildSelections="false"/>
@@ -63,9 +63,9 @@
   <forceEntries>
     <forceEntry id="394a-4b44-0747-7e81" name="Retinue" hidden="false">
       <categoryLinks>
-        <categoryLink name="Warriors (Tier1)" hidden="false" id="bcca-77de-6388-af55" targetId="31dd-0fdb-79bb-5162"/>
-        <categoryLink name="Lord (Tier2)" hidden="false" id="3025-9bda-93d7-adc9" targetId="cd4c-842d-9dc6-02a8"/>
-        <categoryLink name="Baron (Tier3)" hidden="false" id="9df8-ec9d-1c92-d9f7" targetId="e069-c059-b935-c3ac"/>
+        <categoryLink name="Básicas" hidden="false" id="bcca-77de-6388-af55" targetId="31dd-0fdb-79bb-5162"/>
+        <categoryLink name="Especiales" hidden="false" id="3025-9bda-93d7-adc9" targetId="cd4c-842d-9dc6-02a8"/>
+        <categoryLink name="Héroes" hidden="false" id="9df8-ec9d-1c92-d9f7" targetId="e069-c059-b935-c3ac"/>
         <categoryLink name="Faction" hidden="false" id="ab46-d238-0d17-81e4" targetId="51de-724e-3e29-3c7a"/>
       </categoryLinks>
     </forceEntry>
