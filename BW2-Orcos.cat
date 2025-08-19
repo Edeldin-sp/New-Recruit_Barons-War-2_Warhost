@@ -39,7 +39,7 @@
   <entryLinks>
     <entryLink import="true" name="Orcos Salvajes" hidden="false" id="orcos-salvajes-link" type="selectionEntry" targetId="1cf4-0117-8176-16be">
       <categoryLinks>
-        <categoryLink targetId="cat_orcos-salvajes" id="cat_orcos-salvajes-id" primary="true" name="Faction"/>
+        <categoryLink targetId="cat_orcs-salvajes" id="cat_orcs-salvajes-id" primary="true" name="Faction"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
