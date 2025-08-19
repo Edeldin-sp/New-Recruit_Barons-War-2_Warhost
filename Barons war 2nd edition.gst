@@ -450,6 +450,15 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
         <entryLink id="6623-8821-c04e-1ed0" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="0929-995b-24f9-7ced" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+
+    <selectionEntry id="orcs-orc-war" name="Guerrero Orco" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="orcs-orc-war-level" name="Orco Experience level" hidden="false" collective="false" import="true" targetId="orc-war-exp-level" type="selectionEntryGroup"/>
+        <entryLink id="8028-acd6-3812-efd9" name="Knight Inherent Abilities" hidden="false" collective="false" import="true" targetId="0e37-2a3e-7531-dbba" type="selectionEntryGroup"/>
+        <entryLink id="6623-8821-c04e-1ed0" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="0929-995b-24f9-7ced" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+
     <selectionEntry type="upgrade" import="true" name="Mail" hidden="false" id="b805-5e69-0339-2595">
       <profiles>
         <profile name="Mail" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="e717-2f54-ed00-5e55">
@@ -1915,6 +1924,35 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="orc-war-exp-level" name="Orc Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="e666-8a78-cef7-64ba">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="700e-4a68-bcb6-eb54" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cfc-663c-cc8d-b4ae" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="orc-war-exp-level-g" name="Green(Tier1)" hidden="false" collective="true" import="true" targetId="17e5-9956-9cf5-e356" type="selectionEntry">
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink id="orc-war-exp-level-i" name="Irregular(Tier1)" hidden="false" collective="true" import="true" targetId="17e5-9956-9cf5-e356" type="selectionEntry">
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="13"/>
+          </costs>
+        </entryLink>
+        <entryLink id="orc-war-exp-level-r" name="Regular(Tier1)" hidden="false" collective="true" import="true" targetId="af36-8fa1-e0a6-fac0" type="selectionEntry">
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="16"/>
+          </costs>
+        </entryLink>
+        <entryLink id="orc-war-exp-level-v" name="Veteran(Tier1)" hidden="false" collective="true" import="true" targetId="84a7-df1c-60be-53cd" type="selectionEntry">
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="19"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+
     <selectionEntryGroup id="0e37-2a3e-7531-dbba" name="Knight Inherent Abilities" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="9ec9-1bc8-de11-40f0" name="Chivalry (Inherent)" hidden="false" collective="true" import="true" targetId="3d1b-488d-05e7-41a2" type="selectionEntry">

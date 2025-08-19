@@ -8,7 +8,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="knight" hidden="false" id="066b-3872-2da5-f18b" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Knight Experience level" hidden="false" id="f4bc-c8ce-eaf9-01d7" type="selectionEntryGroup" targetId="73aa-dacd-a950-9ea2" collective="true" sortIndex="1"/>
+            <entryLink import="true" name="Knight Experience level" hidden="false" id="f4bc-c8ce-eaf9-01d7" type="selectionEntryGroup" targetId="orc-war-exp-level" collective="true" sortIndex="1"/>
             <entryLink import="true" name="Knight Weapon" hidden="false" id="684a-1e35-e2b9-aa19" type="selectionEntryGroup" targetId="30c4-4c31-7104-9a85" sortIndex="2"/>
             <entryLink import="true" name="Mail" hidden="false" id="6b12-9638-65d6-680e" type="selectionEntry" targetId="b805-5e69-0339-2595" collective="true">
               <constraints>
