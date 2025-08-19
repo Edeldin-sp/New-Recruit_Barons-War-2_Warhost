@@ -2784,19 +2784,18 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b313-4144-996b-2f03" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
-    <!-- ORCOS SALVAJES -->
-    <selectionEntryGroup id="Orc-W-nivel-experiencia" name="Nivel de experiencia" hidden="false" collective="false" import="true" defaultSelectionEntryId="346b-32d3-f8a9-a068">
+    <selectionEntryGroup id="dbd9-772c-5899-ffcc" name="Levy Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="346b-32d3-f8a9-a068">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c13-34e8-2f16-d9c9" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5abe-c320-b87a-9339" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="Orc-W-nivel-irregular" name="Irregular" hidden="false" collective="true" import="true" targetId="17e5-9956-9cf5-e356" type="selectionEntry">
+        <entryLink id="346b-32d3-f8a9-a068" name="Irregular(Tier1)" hidden="false" collective="true" import="true" targetId="17e5-9956-9cf5-e356" type="selectionEntry">
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="12"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Verde" hidden="false" id="Orc-W-nivel-verde" type="selectionEntry" targetId="79f3-6040-fe4c-eb2e" collective="true">
+        <entryLink import="true" name="Green(Tier1)" hidden="false" id="643b-0e29-a1dc-3db2" type="selectionEntry" targetId="79f3-6040-fe4c-eb2e" collective="true">
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="9"/>
           </costs>
@@ -2840,7 +2839,6 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b313-4144-996b-2f03" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
-    <!-- ===================== -->
     <selectionEntryGroup name="Tier2 command upgrades" id="2f53-5ca3-4afc-0f22" hidden="false">
       <entryLinks>
         <entryLink import="true" name="Pennant upgrade" hidden="false" id="64cd-ca78-ad16-acf7" type="selectionEntry" targetId="a1e0-eca9-cd62-da0e">
