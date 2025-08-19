@@ -51,9 +51,51 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="31dd-0fdb-79bb-5162" name="Warriors (Tier1)" hidden="false"/>
-    <categoryEntry id="cd4c-842d-9dc6-02a8" name="Lord (Tier2)" hidden="false"/>
-    <categoryEntry id="e069-c059-b935-c3ac" name="Baron (Tier3)" hidden="false"/>
+  <!-- ===================== -->
+    <!-- ORCOS SALVAJES -->
+    <!-- ===================== -->
+    <categoryEntry id="cat-OrcosSalvajes" name="Orcos Salvajes" hidden="false"/>
+    <categoryEntry id="cat-Orcos-Heroes" name="Héroes" hidden="false"/>
+    <categoryEntry id="cat-Orcos-Basicas" name="Tropas básicas" hidden="false"/>
+    <categoryEntry id="cat-Orcos-Especiales" name="Tropas especiales" hidden="false"/>
+    <categoryEntry id="cat-Orcos-Rasgos" name="Rasgos" hidden="false"/>
+
+    <!-- ===================== -->
+    <!-- ALTOS ELFOS -->
+    <!-- ===================== -->
+    <categoryEntry id="cat-AltosElfos" name="Altos Elfos" hidden="false"/>
+    <categoryEntry id="cat-AltosElfos-Heroes" name="Héroes" hidden="false"/>
+    <categoryEntry id="cat-AltosElfos-Basicas" name="Tropas básicas" hidden="false"/>
+    <categoryEntry id="cat-AltosElfos-Especiales" name="Tropas especiales" hidden="false"/>
+    <categoryEntry id="cat-AltosElfos-Rasgos" name="Rasgos" hidden="false"/>
+
+    <!-- ===================== -->
+    <!-- CLANES ENANOS -->
+    <!-- ===================== -->
+    <categoryEntry id="cat-ClanesEnanos" name="Clanes Enanos" hidden="false"/>
+    <categoryEntry id="cat-ClanesEnanos-Heroes" name="Héroes" hidden="false"/>
+    <categoryEntry id="cat-ClanesEnanos-Basicas" name="Tropas básicas" hidden="false"/>
+    <categoryEntry id="cat-ClanesEnanos-Especiales" name="Tropas especiales" hidden="false"/>
+    <categoryEntry id="cat-ClanesEnanos-Rasgos" name="Rasgos" hidden="false"/>
+
+    <!-- ===================== -->
+    <!-- REINOS LIBRES -->
+    <!-- ===================== -->
+    <categoryEntry id="cat-ReinosLibres" name="Reinos Libres" hidden="false"/>
+    <categoryEntry id="cat-ReinosLibres-Heroes" name="Héroes" hidden="false"/>
+    <categoryEntry id="cat-ReinosLibres-Basicas" name="Tropas básicas" hidden="false"/>
+    <categoryEntry id="cat-ReinosLibres-Especiales" name="Tropas especiales" hidden="false"/>
+    <categoryEntry id="cat-ReinosLibres-Rasgos" name="Rasgos" hidden="false"/>
+
+    <!-- ===================== -->
+    <!-- REINO MALDITO -->
+    <!-- ===================== -->
+    <categoryEntry id="cat-ReinoMaldito" name="Reino Maldito" hidden="false"/>
+    <categoryEntry id="cat-ReinoMaldito-Heroes" name="Héroes" hidden="false"/>
+    <categoryEntry id="cat-ReinoMaldito-Basicas" name="Tropas básicas" hidden="false"/>
+    <categoryEntry id="cat-ReinoMaldito-Especiales" name="Tropas especiales" hidden="false"/>
+    <categoryEntry id="cat-ReinoMaldito-Rasgos" name="Rasgos" hidden="false"/>
+    <!-- ===================== -->
     <categoryEntry name="Faction" id="51de-724e-3e29-3c7a" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce93-8aaf-c086-d7aa" includeChildSelections="false"/>
