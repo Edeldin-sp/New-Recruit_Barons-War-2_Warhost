@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="18e3-b985-9231-8295" name="Barons war 2 - Warhost" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" library="true">
+<gameSystem id="18e3-b985-9231-8295" name="Barons War 2nd - Expansion (ES)" revision="1" battleScribeVersion="2.03" xmlns="" type="gameSystem" library="true">
   <publications>
     <publication id="5fd6-9a6b-eead-8066" name="Barons War 2nd edition main rulebook"/>
   </publications>
@@ -89,7 +89,9 @@
         <profile id="ad40-cda9-b3da-e51b" name="Battle Axe" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">-</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">CUTTING EDGE - Shield rolls suffer a -1 penalty.</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            FILO CORTANTE – Las tiradas de Salvación sufren un penalizador de –1.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -101,12 +103,13 @@
       <profiles>
         <profile id="cbf0-6aac-1086-dc7a" name="ImprovisedTwo HandedWeapon" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 to Attack rolls  (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">SLOW - A Slow weapon always strikes after non-Slow
-weapons, which may mean Charging Warriors strike
-after those making an Attack Back.
-TWO HANDED - Cannot equip a Shield with this
-weapon.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +1 ATAQUE (incluido)
+            </characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            LENTO – Siempre ataca en último lugar, lo que puede significar que ataquen después de un CONTRAATACAR.
+            A DOS MANOS – No se puede equipar un escudo con esta arma.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -119,9 +122,8 @@ weapon.</characteristic>
         <profile id="4ca6-0277-0414-e7b1" name="Spear" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">REACH - When making a Melee attack, Warriors armed
-with Spears generate Attack dice when within 2&apos;&apos; of a
-model in base contact with the enemy (rather than 1&quot;).</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            ALCANCE – Al realizar un ataque cuerpo a cuerpo, los Guerreros armados con lanzas generan dados de Ataque cuando se encuentran a 3" de una miniatura enemiga.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -133,9 +135,12 @@ model in base contact with the enemy (rather than 1&quot;).</characteristic>
       <profiles>
         <profile id="d43c-b53f-d4c6-c252" name="Falchion" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 to Attack rolls  (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">SLASHING - Target suffers -1 to Defence rolls if
-unarmoured or wearing Padded Armour.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +1 ATAQUE (incluido)
+            </characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            CORTANTE – El objetivo sufre un –1 a sus tiradas de Defensa si no lleva armadura o si viste Armadura Acolchada.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -227,7 +232,9 @@ unarmoured or wearing Padded Armour.</characteristic>
       <profiles>
         <profile id="6996-abf3-c17e-1c7d" name="Chivalry" hidden="false" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">The Group does not need to take a Morale check to charge Knights (or equivalent Warriors deemed to be knights) if they are not the closest target.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            El Grupo no necesita realizar un chequeo de Moral para cargar contra Caballeros (o sus equivalentes) si no son el objetivo más cercano.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -236,7 +243,9 @@ unarmoured or wearing Padded Armour.</characteristic>
       <profiles>
         <profile id="e462-a377-9f48-a78b" name="Live by the sword" hidden="false" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">May re-roll one Melee Attack Dice against Groups who are not Knights (or their equivalent).</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Puede repetir un dado de Ataque cuerpo a cuerpo contra Grupos que no sean Caballeros (o sus equivalentes).
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -406,10 +415,14 @@ unarmoured or wearing Padded Armour.</characteristic>
       <profiles>
         <profile id="1416-2ddc-4424-9a43" name="Two handed weapon" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+2 to Attack rolls (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">PARRY - Gains +1 to Shield rolls in Melee, or else a 9+Shield roll in Melee if not equipped with a Shield.
-SLOW - A Slow weapon always strikes after non-Slow weapons, which may mean Charging Warriors strike after those making an Attack Back.
-TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +2 ATAQUE (incluido)
+            </characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            PARADA – +1 a la Salvación en combate cuerpo a cuerpo, o bien Salvación de 9+ en combate cuerpo a cuerpo si no está equipado con escudo.
+            LENTO – Siempre ataca después de las armas que no lo sean, lo que puede significar que ataquen después de un CONTRAATACAR.
+            A DOS MANOS – No se puede equipar un escudo con esta arma.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -421,9 +434,10 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
       <profiles>
         <profile id="bbf8-e951-6197-618b" name="Sword" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 to Attack rolls (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">PARRY - Gains +1 to Shield rolls in Melee, or else a 9+ Shield roll in Melee if not equipped with a Shield.</characteristic>
-          </characteristics>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 ATAQUE (incluido)</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            PARADA – +1 a la Salvación en combate cuerpo a cuerpo, o bien Salvación de 9+ en combate cuerpo a cuerpo si no está equipado con escudo.
+            </characteristics>
         </profile>
       </profiles>
       <costs>
@@ -434,8 +448,12 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
       <profiles>
         <profile id="3d88-124d-5ba8-829c" name="Mace" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 to Attack rolls  (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">BLUNT TRAUMA - Shield rolls may not be taken against successful attacks from Maces.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +1 ATAQUE (incluido)
+            </characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            CONTUNDENTE – No se pueden realizar Salvación contra ataques exitosos realizados con Mazas.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -463,9 +481,13 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
       <profiles>
         <profile name="Mail" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="e717-2f54-ed00-5e55">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">-2&quot; Move (INCL)
-+2 Defence (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">HEAVY - Reduces Movement by half rather than a quarter in Difficult Terrain</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            -2" Movimiento (incluido)
+            +2 Defensa (incluido)
+            </characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            PESADO – Reduce el Movimiento a la mitad en lugar de a un cuarto al moverse por Terreno Difícil.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -477,8 +499,10 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
       <profiles>
         <profile name="Padded armour" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="5d36-666c-5363-8ab8">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">-1&quot; Move (INCL)
-+1 Defence (INCL)</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            -1" MOVIMIENTO (Incluido)
+            +1 DEFENSA (Incluido)
+            </characteristic>
             <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c"/>
           </characteristics>
         </profile>
@@ -495,7 +519,9 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
         <profile name="Small shield" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="3791-32b1-4158-0394">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">9+ Shield Roll</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            9+ SALVACIÓN
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -508,7 +534,9 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
         <profile name="Medium shield" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="86b9-a08c-6f72-9604">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">8+ Shield Roll</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            8+ SALVACIÓN
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -521,7 +549,9 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
         <profile name="Large shield" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="1410-e5ec-feef-4102">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">7+ Shield Roll</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            7+ SALVACIÓN
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -530,10 +560,13 @@ TWO HANDED - Cannot equip a Shield with this weapon</characteristic>
       <profiles>
         <profile name="Bill/Polearm" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="465d-eb07-2678-d480">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 to attack rolls (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">HACKING - The target suffers a -1 penalty to its Defence rolls.
-REACH - When making a Melee attack, Warriors armed with Bills generate Attack dice when within 2&apos;&apos; of a model in base contact with the enemy (rather than 1&quot;).
-TWO HANDED - Cannot equip a Shield with this weapon.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +1 ATAQUE (incluido)</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            HACHAZO – El objetivo sufre un penalizador de –1 a sus tiradas de Defensa.
+            ALCANCE – Al realizar un ataque cuerpo a cuerpo, los Guerreros armados con lanzas generan dados de Ataque cuando se encuentran a 2" de una miniatura en contacto de peana con el enemigo (en lugar de 1")</characteristic>
+            A DOS MANOS – No se puede equipar un escudo con esta arma.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -545,9 +578,11 @@ TWO HANDED - Cannot equip a Shield with this weapon.</characteristic>
       <profiles>
         <profile name="Horseman&apos;s pick" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="3cbb-e39e-f082-de47">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+1 to Attack rolls  (INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">MOUNTED - Can only be equipped to by a mounted Warrior.
-PIERCING - When Charging, the target does not apply Armour modifiers to its Defence rolls..</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +1 ATAQUE (incluido)</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            MONTADO – Solo puede ser equipado por un Guerrero Montado.
+            PERFORANTE – Al cargar, el objetivo no aplica los modificadores de armadura a sus tiradas de Defensa.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -559,10 +594,12 @@ PIERCING - When Charging, the target does not apply Armour modifiers to its Def
       <profiles>
         <profile name="Lance" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="e608-2a09-788e-af3f">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">+2 to Attack rolls (NOT INCL)</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">LANCE - Does not replace equipped weapon. Single use, the first time the Group Charges.
-PIERCING - When Charging, the target does not apply Armour modifiers to its Defence rolls.
-SHOCK - If Lances cause any casualties, the target Group must pass a Morale check during combat resolution or become Broken.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            +2 Ataque (NOT INCL)</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            LANCE - Does not replace equipped weapon. Single use, the first time the Group Charges.
+            PERFORANTE – Al cargar, el objetivo no aplica los modificadores de armadura a sus tiradas de Defensa.
+            CHOQUE – Si las Lanzas causan alguna baja, el Grupo objetivo debe superar un chequeo de Moral durante la resolución del combate o quedará Roto.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -574,7 +611,8 @@ SHOCK - If Lances cause any casualties, the target Group must pass a Morale che
       <profiles>
         <profile name="Horse" typeId="bdca-3fcc-9f84-9e76" typeName="Mount" hidden="false" id="a7b8-5745-79a1-a57f">
           <characteristics>
-            <characteristic name="Modifier" typeId="4e4d-ef3e-cc21-857d">+3&quot; Move</characteristic>
+            <characteristic name="Modifier" typeId="4e4d-ef3e-cc21-857d">
+            +3" MOVIMIENTO</characteristic>
             <characteristic name="Effect" typeId="5ad9-e718-b665-3dc8"/>
           </characteristics>
         </profile>
@@ -587,8 +625,10 @@ SHOCK - If Lances cause any casualties, the target Group must pass a Morale che
       <profiles>
         <profile name="Barded Horse" typeId="bdca-3fcc-9f84-9e76" typeName="Mount" hidden="false" id="36b2-133c-5f86-f3a2">
           <characteristics>
-            <characteristic name="Modifier" typeId="4e4d-ef3e-cc21-857d">+3&quot; Move
-+1 Defence</characteristic>
+            <characteristic name="Modifier" typeId="4e4d-ef3e-cc21-857d">
+            +3" MOVIMIENTO
+            +1 DEFENSA
+            </characteristic>
             <characteristic name="Effect" typeId="5ad9-e718-b665-3dc8"/>
           </characteristics>
         </profile>
@@ -603,17 +643,18 @@ SHOCK - If Lances cause any casualties, the target Group must pass a Morale che
         <entryLink import="true" name="Mounts" hidden="false" id="f9ac-819b-3fa4-d2c0" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ride down (Inherent)" hidden="false" id="86c0-bb39-4a6c-ea0c">
+    <selectionEntry type="upgrade" import="true" name="Arrollar" hidden="false" id="86c0-bb39-4a6c-ea0c">
       <profiles>
-        <profile name="Ride down" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="7a0b-4e37-7648-deaa">
+        <profile name="Arrollar" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="7a0b-4e37-7648-deaa">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">When the mounted Knights Charge and are not Weary, they may choose to use Ride Down. If so, they gain +2 to their Attack rolls.
-During Combat Resolution, if the Group using Ride Down wins the combat, the defeated Group is not Forced Back. Instead, move each attacking Warrior directly forward (in the straight line used by their Charge move) by a number of inches equal to their full Movement value.
-Measured from the rearmost defending Warrior (the one furthest away in the direction LoS was drawn for the Charge). 
-If this movement would bring this group into base contact with a second enemy group, they make an immediate free Attack Action, counting as Charging but becoming Weary.
-Start the Combat process with Melee step 5 (Declare Reaction). 
-This does not count towards their maximum number of Actions.
-If this movement takes the Group off the table, it plays no further part in the game but does not count as destroyed - the enemy gains no Victory Points.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Si no están fatigados, pueden elegir usar Arrollar. Si lo hacen, obtienen +2 a sus tiradas de Ataque.
+            Durante la Resolución del Combate, si el Grupo que usa Arrollar gana el combate, el Grupo derrotado no retrocede. En su lugar, mueve a cada Guerrero atacante directamente hacia adelante (en la línea recta) un número de pulgadas igual a su valor completo de Movimiento.
+            La medición se hace desde el Guerrero defensor más alejado de la carga.
+            Si este movimiento hace que el grupo entre en contacto de peana con un segundo grupo enemigo, realiza una Acción de ATACAR gratuita inmediata, contando como carga pero quedando Fatigado.
+            Se inicia el proceso de combate en el paso 5 de Combate cuerpo a cuerpo (Declarar Reacción).
+            Esto no cuenta para su número máximo de Acciones. Si este movimiento saca al Grupo de la mesa, no participa más en el juego pero no se considera destruido, y el enemigo no gana Puntos de Victoria.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -622,7 +663,9 @@ If this movement takes the Group off the table, it plays no further part in the�
       <profiles>
         <profile name="Martial respect" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="ac87-33ee-6638-da29">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">When a friendly Group takes a Morale check (not Order checks) within 6&quot; of a Group with this Ability, roll 2d10 and use the highest result.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Cuando un Grupo aliado realiza un chequeo de Moral (no los de Orden) dentro de 6" de un Grupo con esta Habilidad, tira 2d10 y utiliza el resultado más alto.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -631,7 +674,9 @@ If this movement takes the Group off the table, it plays no further part in the�
       <profiles>
         <profile name="Sorry m&apos;lord" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="bd2e-476a-49f9-3eec">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">If Broken and testing to Rally, ignore one additional Morale Penalty if within 6&quot; of a friendly Command Group.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Si está Roto y realiza un chequeo para Reagruparse, ignora un penalizador de Moral adicional si se encuentra dentro de 6" de un Grupo de Mando aliado.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -640,7 +685,9 @@ If this movement takes the Group off the table, it plays no further part in the�
       <profiles>
         <profile name="Marksman" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="82cb-772c-2e17-07e4">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">May shoot a Crossbow more than once each round. If they make a second shot, it always counts as at Long range.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Puede disparar una Ballesta más de una vez por turno. Si realiza un segundo disparo, siempre cuenta como a Alcance Largo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -649,31 +696,38 @@ If this movement takes the Group off the table, it plays no further part in the�
       <profiles>
         <profile name="Faith" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="b949-f084-4ae6-13f7">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">Ignore one Morale Penalty when making Morale (not Order) checks.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Ignora 1 de Moral al realizar chequeos de Moral (no de Orden).
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Every bloody sunday (Inherent)" hidden="false" id="38c1-cd0f-2528-85f9">
+    <selectionEntry type="upgrade" import="true" name="Cada domingo (inherente)" hidden="false" id="38c1-cd0f-2528-85f9">
       <profiles>
-        <profile name="Every bloody sunday" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="ca92-8a21-755d-86be">
+        <profile name="Cada domingo" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="ca92-8a21-755d-86be">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">Can move up to 3” and shoot with a Bow even if at Long range.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Puede moverse hasta 3" y disparar con un Arco, incluso si está a Alcance Largo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Commander (Inherent)" hidden="false" id="333d-6137-77bc-eabd">
+    <selectionEntry type="upgrade" import="true" name="Comandante (inherente)" hidden="false" id="333d-6137-77bc-eabd">
       <profiles>
-        <profile name="Commander" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="735e-ebe8-f491-0c28">
+        <profile name="Comandante" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="735e-ebe8-f491-0c28">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">Commander only. Must join a Group before deployment, creating a Command Group.
-Groups within Command range and LoS of a friendly Commander may use the Commander’s Morale instead of their own when testing their Morale.
-A Commander may target one Command Action per round on a friendly Group within Command range and LoS, enabling the Group to make a Reaction (not an Action), provided it passes an Order check.
-If the Commander is in base contact with an enemy in Melee, he may spend unused Actions.
-Each Action allows the Commander to add an extra Attack or Defence dice in Melee.
-One Commander must be chosen to lead your Retinue, making him the Retinue Leader. 
-The Retinue Leader may use Command Actions to give Actions to friendly Groups within Command Range and LoS.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Solo Héroes.
+            Debe unirse a un Grupo antes del despliegue, formando un Grupo de Mando.
+            Los Grupos dentro del alcance de Mando y con Línea de Visión a un Comandante aliado pueden usar la Moral del Comandante en lugar de la suya propia al realizar chequeos de Moral.
+            Un Comandante puede dirigir una Acción de Mando por turno a un Grupo aliado dentro del alcance de Mando y con Línea de Visión, permitiendo que el Grupo realice una Reacción (no una Acción), siempre que supere un chequeo de Orden.
+            Si el Comandante está en contacto de base con un enemigo en Combate Cuerpo a Cuerpo, puede gastar Acciones no utilizadas.
+            Cada Acción permite al Comandante añadir un dado extra de Ataque o Defensa en combate cuerpo a cuerpo.
+            Se debe elegir un Comandante para liderar tu Escolta, convirtiéndolo en el Líder de la Escolta.
+            El Líder de la Escolta puede usar Acciones de Mando para dar Acciones a Grupos aliados dentro del alcance de Mando y con Línea de Visión.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -681,14 +735,16 @@ The Retinue Leader may use Command Actions to give Actions to friendly Groups w
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="5aa4-12c7-65e7-429a" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Brace (Inherent)" hidden="false" id="178a-ef34-3ae4-3dd5">
+    <selectionEntry type="upgrade" import="true" name="Aguantar (inherente)" hidden="false" id="178a-ef34-3ae4-3dd5">
       <profiles>
-        <profile name="Brace" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="292f-9038-a1db-561e">
+        <profile name="Aguantar" typeId="4a63-9eb9-faac-8817" typeName="Inherent Abilities" hidden="false" id="292f-9038-a1db-561e">
           <characteristics>
-            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">May only be selected by infantry Groups with Spears or Bills / Polearms.
-When Charged by a mounted Group, the infantry may make a Brace Reaction.
-The Cavalry group cannot choose to Ride Down and must Charge as normal. 
-The Braced Group will Attack Back, with any Warriors who are removed as casualties contributing Attack dice.</characteristic>
+            <characteristic name="Effect" typeId="1997-faf8-6fe9-e619">
+            Solo puede ser elegido por Grupos de infantería armados con armas de asta.
+            Cuando son Cargados por un Grupo Montado, la infantería puede realizar una Reacción de AGUANTAR.
+            El grupo de Caballería no puede elegir ARROLLAR y debe realizar una carga normal.
+            El Grupo que ha realizado AGUANTAR puede llevar a cabo un ataque de respuesta, cualquier guerrero eliminado como baja seguirá contribuyendo con dados de Ataque.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -698,9 +754,11 @@ The Braced Group will Attack Back, with any Warriors who are removed as casualt
         <profile name="Sling" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="7935-55a3-ef69-1fc6">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">RANGED - 10&quot; Long range.
-MOVE AND SHOOT - Can move 6&quot; and shoot at full effect.
-QUICK SHOT - If the group did not move, any successful hits generate bonus Attacks.</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            A DISTANCIA – Alcance Largo de 10".
+            MOVER Y DISPARAR – Puede moverse 6" y disparar con efecto completo.
+            DISPARO RÁPIDO – Si el grupo no se movió, cualquier impacto exitoso genera Ataques adicionales.        
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -713,9 +771,11 @@ QUICK SHOT - If the group did not move, any successful hits generate bonus Atta
         <profile name="Javelin" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="449d-43f9-2a32-ee1c">
           <characteristics>
             <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">RANGED - 6&quot; Long range.
-MOVE AND SHOOT - Can move 6&quot; and shoot at full effect.
-RUN UP - Gains +d6&quot; range if warrior(s) end their Movement closer to target than their original position.</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            A DISTANCIA – Alcance Largo de 6".
+            MOVER Y DISPARAR – Puede moverse 6" y disparar con efecto completo.
+            CARRERILLA – Gana +d6" de alcance si el/los Guerreros terminan su Movimiento más cerca del objetivo que su posición original.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -730,11 +790,15 @@ RUN UP - Gains +d6&quot; range if warrior(s) end their Movement closer to targe
       <profiles>
         <profile name="Bow" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="e9de-6874-ea64-405f">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">Long: -1 to Attack rolls
-Short: no modifier</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">RANGED - 20&quot; Long range, 10&quot; Short range
-MOVE AND SHOOT - Can move 3&quot; and shoot at Short range.
-TWO HANDED - Cannot equip a Shield with this weapon.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            Alcance Largo: -1 a las tiradas de Ataque
+            Alcance Corto: sin modificador
+            </characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            A DISTANCIA – Alcance Largo de 206". Alcance Corto 10".
+            MOVER Y DISPARAR – Puede moverse 3" y disparar con efecto completo.
+            A DOS MANOS – No se puede equipar un escudo con esta arma.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -746,23 +810,29 @@ TWO HANDED - Cannot equip a Shield with this weapon.</characteristic>
       <profiles>
         <profile name="Crossbow" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="a8a1-9779-8ea4-2746">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">Long: no modifier
-Short: +1 to Attack rolls</characteristic>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">RANGED - 20&quot; Long range, 10&quot; Short range.
-CRITICAL HIT - At Short range, Attack dice which score a natural 0 can only be Defended by Defence dice which score a natural 0, with no Shield rolls permitted.
-MOVE AND SHOOT - Can move 3&quot; and shoot at Short range.
-RELOAD - May only shoot once per round. May not Shoot Back or use Reaction Shooting.
-TWO HANDED - Cannot equip a Shield with this weapon.</characteristic>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">
+            Alcance Largo: sin modificador
+            Alcance Corto: +1 a las tiradas de Ataque
+</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">
+            A DISTANCIA – Alcance Largo de 206". Alcance Corto 10".
+            MOVER Y DISPARAR – Puede moverse 3" y disparar con efecto completo.
+            A DOS MANOS – No se puede equipar un escudo con esta arma.
+            RECARGAR – Solo puede disparar una vez por turno. No puede Contraatacar ni usar Disparo de Reacción.
+            GOLPE CRÍTICO – A corta distancia, los dados de Ataque que obtengan un 0 natural solo pueden ser defendidos por dados de Defensa que obtengan un 0 natural.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Banner upgrade" hidden="false" id="bc7d-0edb-b3ed-73f3">
+    <selectionEntry type="upgrade" import="true" name="Estandarte (mejora)" hidden="false" id="bc7d-0edb-b3ed-73f3">
       <profiles>
-        <profile name="Banner upgrade" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="3a17-372c-3029-2139">
+        <profile name="Estandarte (mejora)" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="3a17-372c-3029-2139">
           <characteristics>
-            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">BANNER - The Commander&apos;s Command range is extended to 12&quot;, measured from the bannerman.
-INSPIRE - Any friendly Group within 12&quot; of the Banner (including the Command Group but not its Commander) may gain a free Attack OR Defence dice in each Combat Action.</characteristic>
+            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">
+            ESTANDARTE – El alcance de Mando del Comandante se extiende a 12", medido desde el portador de la bandera.
+            INSPIRAR – Cualquier Grupo aliado dentro de 12" del Estandarte (incluido el Grupo de Mando, pero no su Comandante) puede obtener un dado de Ataque o Defensa gratuito en cada Acción de Combate.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -770,12 +840,14 @@ INSPIRE - Any friendly Group within 12&quot; of the Banner (including the Comman
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="9"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pennant upgrade" hidden="false" id="a1e0-eca9-cd62-da0e">
+    <selectionEntry type="upgrade" import="true" name="Pendón (mejora)" hidden="false" id="a1e0-eca9-cd62-da0e">
       <profiles>
-        <profile name="Pennant upgrade" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="5c58-ea10-5cfa-0f80">
+        <profile name="Pendón (mejora)" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="5c58-ea10-5cfa-0f80">
           <characteristics>
-            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">PENNANT - The Commander&apos;s Command range is extended to 9&quot;, measured from the bannerman.
-INSPIRE - Any friendly Group within 9&quot; of the Pennant (including the Command Group but not its Commander) may gain a free Attack OR Defence dice in each Combat Action.</characteristic>
+            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">
+            PENDÓN – El alcance de Mando del Comandante se extiende a 9", medido desde el portador de la bandera.
+            INSPIRAR – Cualquier Grupo aliado dentro de 9" del Pendón (incluido el Grupo de Mando, pero no su Comandante) puede obtener un dado de Ataque o Defensa gratuito en cada Acción de Combate.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -783,11 +855,13 @@ INSPIRE - Any friendly Group within 9&quot; of the Pennant (including the Comma
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="7"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Musician upgrade" hidden="false" id="93a2-4deb-7353-1103">
+    <selectionEntry type="upgrade" import="true" name="Músico (mejora)" hidden="false" id="93a2-4deb-7353-1103">
       <profiles>
-        <profile name="Musician upgrade" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="93c4-f889-9730-7a5e">
+        <profile name="Músico (mejora)" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="93c4-f889-9730-7a5e">
           <characteristics>
-            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">MUSICIAN - Any friendly Group(s) within Command range of the Musician roll two dice for the Order Check to use a Command Action, choosing the highest.</characteristic>
+            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">
+            MÚSICO – Cualquier Grupo aliado dentro del alcance de Mando del Músico tira dos dados para el Chequeo de Orden al usar una Acción de Mando, eligiendo el resultado más alto.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -795,14 +869,15 @@ INSPIRE - Any friendly Group within 9&quot; of the Pennant (including the Comma
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="4"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Priest upgrade" hidden="false" id="c4a2-07e5-7ede-2ff7">
+    <selectionEntry type="upgrade" import="true" name="Sacerdote (mejora)" hidden="false" id="c4a2-07e5-7ede-2ff7">
       <costs>
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="4"/>
       </costs>
       <profiles>
-        <profile name="Priest upgrade" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="ae66-4112-4b54-19f0">
+        <profile name="Sacerdote (mejora)" typeId="117d-3f83-34f2-9ab5" typeName="Command group upgrades" hidden="false" id="ae66-4112-4b54-19f0">
           <characteristics>
-            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">PRIEST - Any friendly Group(s) within 6&quot; of the Priest (including the Command Group) ignore one Morale Penalty when taking Morale (but not Order) checks.</characteristic>
+            <characteristic name="Effect" typeId="7c89-b379-a09c-9dab">
+            PRIEST - Any friendly Group(s) within 6" of the Priest (including the Command Group) ignore one Morale Penalty when taking Morale (but not Order) checks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1365,17 +1440,20 @@ INSPIRE - Any friendly Group within 9&quot; of the Pennant (including the Comma
       <profiles>
         <profile name="Feudal european trait" typeId="3f4e-da68-2a7f-12ed" typeName="Faction trait" hidden="false" id="9bad-95ef-0d71-8c89">
           <characteristics>
-            <characteristic name="Name" typeId="24f7-e0d4-9c72-4cd7">CAVALRY WARFARE: FIRST CHARGE</characteristic>
-            <characteristic name="Abilitie" typeId="7af7-f033-776c-f094">The first time in each game that a Group of mounted Knights declares a Charge, it automatically gains the Close Ranks Ability provided it is not Weary and Charges at least 6”.</characteristic>
+            <characteristic name="Name" typeId="24f7-e0d4-9c72-4cd7">CABALLERÍA: PRIMERA CARGA</characteristic>
+            <characteristic name="Abilitie" typeId="7af7-f033-776c-f094">
+            La primera vez en cada partida que un Grupo de Caballeros Montados declara una Carga, obtiene automáticamente la Habilidad Cerrar Filas, siempre que no esté Fatigado y cargue al menos 6".
+            </characteristic>
           </characteristics>
         </profile>
         <profile name="Feudal european trait" typeId="3f4e-da68-2a7f-12ed" typeName="Faction trait" hidden="false" id="fcea-951d-4584-9f08">
           <characteristics>
-            <characteristic name="Name" typeId="24f7-e0d4-9c72-4cd7">INFANTRY SCREEN</characteristic>
-            <characteristic name="Abilitie" typeId="7af7-f033-776c-f094">When a Group of Mounted Knights declares a Charge, it can draw Line of Sight through a single friendly infantry Group. 
-This Infantry Group must take an Order check: if it passes, the Knights may move completely
-through it (the warriors are assumed to get out of the way and then resume their position) and the Infantry take a Morale Penalty.
-If the Group fails, the Knights may still move completely through it but the Infantry Group takes 1d3 casualties (and Morale Penalties).</characteristic>
+            <characteristic name="Name" typeId="24f7-e0d4-9c72-4cd7">INFANTERÍA: PANTALLA</characteristic>
+            <characteristic name="Abilitie" typeId="7af7-f033-776c-f094">
+            Cuando un Grupo de Caballeros Montados declara una Carga, puede trazar Línea de Visión a través de un único Grupo aliado de infantería.
+            Este Grupo de Infantería debe realizar un Chequeo de Orden: si lo supera, los Caballeros pueden moverse completamente a través de él (se asume que los Guerreros se apartan y luego retoman su posición) y la Infantería recibe un Penalizador de Moral.
+            Si el Grupo falla, los Caballeros aún pueden moverse completamente a través de él, pero el Grupo de Infantería sufre 1d3 bajas (y Penalizadores de Moral).
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1384,9 +1462,9 @@ If the Group fails, the Knights may still move completely through it but the In
       <profiles>
         <profile name="Attack back" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="6d9c-0d3e-0a56-0360">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">If this Group is charged and wins the Combat Action by using a Reaction (for example an Attack Back Reaction), after Combat Resolution is complete.
-The Group must activate and takes a Compulsory Action to Charge the defeated enemy Group and fight another Melee Combat.
-This is a free Action which does not count towards the Group&apos;s maximum Actions per round, though it causes the Group to become Weary as soon as it activates for the second Combat Action.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1401,9 +1479,10 @@ This is a free Action which does not count towards the Group&apos;s maximum Acti
       <profiles>
         <profile name="Born for war" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="7dcf-edcb-c667-b685">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Once per round, if the Group is Charged and does not have an available Action, it may take a free Defend or Attack Back Reaction.
-If the Group has an unused Action, it must be used first.
-Using this free Action does not count towards the Group&apos;s maximum Actions per round; it causes the Group to become Weary as soon as the Reaction is declared.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Una vez por turno, si el Grupo es Cargado y no tiene una Acción disponible, puede realizar una Reacción gratuita de DEFENDER o de CONTRAATACAR.
+            Provoca que el Grupo se vuelva Fatigado en cuanto se declare la Reacción.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1418,7 +1497,9 @@ Using this free Action does not count towards the Group&apos;s maximum Actions 
       <profiles>
         <profile name="Brave" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="5a5e-7158-5c7e-fb4c">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">The Group adds +1 to all Morale (not Order) checks.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            El Grupo obtiene +1 a todos los chequeos de Moral (no de Orden).
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1433,8 +1514,11 @@ Using this free Action does not count towards the Group&apos;s maximum Actions 
       <profiles>
         <profile name="Bulwark" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="aae6-2766-2e33-9994">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">When an enemy Group targets this Group for a Combat Action, it may choose to gain +1 to Defence rolls for the duration of this round.
-If so, it cannot use a Combat Action to Charge or make a Ranged attack for the remainder of this round and the next round. It may use Reactions, including to Attack Back or Shoot Back.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Cuando un Grupo enemigo tenga como objetivo a este Grupo para una Acción de Combate, este puede elegir ganar +1 a las tiradas de Defensa durante el resto de este turno.
+            Si lo hace, no podrá usar una Acción de Combate para Cargar ni para realizar un Ataque a Distancia durante el resto de este turno y el siguiente.
+            Sí podrá usar Reacciones, incluyendo CONTRA-ATAQUE o CONTRA-DISPARO.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1449,12 +1533,9 @@ If so, it cannot use a Combat Action to Charge or make a Ranged attack for the�
       <profiles>
         <profile name="Close ranks" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="0bd7-0c3f-9481-e543">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May only be chosen by a Group of mounted Knights.
-When the Knights declare a Charge against an infantry Group, provided they are not Weary and are at least 6&quot; from their target, they may Close Ranks.
-Immediately before the Defender declares their Reaction, the targeted infantry must take a Morale check. If failed, the Group becomes Broken and may not make a Reaction.
-It does not move, but will make its Broken Move away from the Charging Knights in the Combat Resolution step.
-Before the Knights make their Charge move, check Coherency and move the Knights into base contact with a Warrior used as the basis for Coherency.
-The Knights then Charge directly forwards towards their target.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo puede ser elegido por un Grupo de Caballeros Montados. Cuando los Caballeros declaran una Carga contra un Grupo de infantería, siempre que no estén Fatigados y se encuentren al menos a 6" de su objetivo, pueden Cerrar Filas. Inmediatamente antes de que el Defensor declare su Reacción, la infantería objetivo debe realizar un chequeo de Moral. Si lo falla, el Grupo queda Roto y no podrá realizar una Reacción. No se mueve, pero efectuará su Movimiento de Roto alejándose de los Caballeros que cargan durante el paso de Resolución del Combate. Antes de que los Caballeros realicen su movimiento de Carga, verifica la Coherencia y mueve a los Caballeros hasta el contacto de base con un Guerrero usado como referencia para la Coherencia. Los Caballeros cargan directamente hacia adelante hacia su objetivo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1466,17 +1547,14 @@ The Knights then Charge directly forwards towards their target.</characteristic>
       <profiles>
         <profile name="Counter charge " typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="27ec-1e83-e404-d535">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May only be chosen by a group mounted on Horses or Barded Horses.
-If the Group is Charged by a Group of enemy Cavalry, they may make a Counter-Charge Reaction.
-During the Melee Combat, both Groups are treated as Charging, i.e. both roll for Strength of the Charge.
-Both players make a simultaneous Charge move for one Warrior from each Group
-(modified by Terrain as normal), until they come into base contact.
-Then move the remainder of the Groups, pairing off Warriors who can draw LoS to each other and will therefore meet in between.
-Since both Groups are treated as Charging, both Groups generate Attack Dice pools at the same time.
-The Counter-Charging Group fights at the same time and so its Attack dice are not reduced for casualties.
-Both Groups may use Weapons or Abilities triggered by Charging.
-Since there will be no Defender Reaction, after the &quot;Attacker&quot; step, move to Combat Resolution as normal. 
-The Group that suffers the most casualties loses the combat and will be Forced Back and may need to take a Morale Check.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo puede ser elegido por un grupo Montado. Si es Cargado por caballería enemiga, puede hacer una Reacción de Contra-Carga. Durante el combate, ambos grupos se consideran Cargando:
+            - Cada jugador mueve un Guerrero de su grupo hasta contacto de base; luego se mueve el resto emparejando Guerreros con Línea de Visión.
+            - Ambos generan dados de Ataque al mismo tiempo, sin reducción por bajas.
+            - Se pueden usar armas y habilidades que se activen al cargar.
+            No hay Reacción del Defensor; después del paso de Atacante, se pasa a Resolución del Combate.
+            El grupo que pierda más bajas pierde el combate, será Obligado a Retroceder y podría necesitar un chequeo de Moral.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1488,7 +1566,9 @@ The Group that suffers the most casualties loses the combat and will be Forced 
       <profiles>
         <profile name="Courageous" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="abd0-5cd2-d46a-bf09">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">The Group automatically passes Morale Checks when testing for being Broken.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            El Grupo supera automáticamente los chequeos de Moral en las tiradas de Huida.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1496,12 +1576,14 @@ The Group that suffers the most casualties loses the combat and will be Forced 
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="2"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Cruelty" hidden="false" id="71f5-8ba0-7767-3934">
+    <selectionEntry type="upgrade" import="true" name="Cruel (Héroe)" hidden="false" id="71f5-8ba0-7767-3934">
       <profiles>
-        <profile name="Cruelty" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="c6a2-4845-9828-0b09">
+        <profile name="Cruel (Héroe)" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="c6a2-4845-9828-0b09">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Commander only.
-When the Commander makes Melee Attacks, enemy Warriors in base contact must re-roll one successful Defence dice caused by the Commander’s Attack Dice pool.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo Héroes.
+            Cuando el Comandante realiza Ataques cuerpo a cuerpo, los Guerreros enemigos en contacto de base deben repetir una tirada de Defensa exitosa causada por el pool de Dados de Ataque del Comandante.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1513,8 +1595,10 @@ When the Commander makes Melee Attacks, enemy Warriors in base contact must re-
       <profiles>
         <profile name="Drilled" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="1f66-7460-8b03-0bd5">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Once per round a Group with this Ability may be activated and given a Defend Action (not a Reaction) as a free action.
-This does not count towards the total number of Actions which the Group can take.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Una vez por turno, un Grupo con esta Habilidad puede ser activado y realizar una Acción de Defensa (no una Reacción) como acción gratuita.
+            Esto no cuenta para el número total de Acciones que el Grupo puede realizar.
+           </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1522,13 +1606,14 @@ This does not count towards the total number of Actions which the Group can tak
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="2"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Experienced tactician" hidden="false" id="54a4-d4fe-a86b-2206">
+    <selectionEntry type="upgrade" import="true" name="Estratega" hidden="false" id="54a4-d4fe-a86b-2206">
       <profiles>
-        <profile name="Experienced tactician" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="0112-1cf9-22f3-6a59">
+        <profile name="Estratega (Líder)" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="0112-1cf9-22f3-6a59">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Commander only.
-May only be chosen by the Retinue Leader.
-When determining Initiative, the Retinue Leader rolls an additional d10 (without spending a Command Action) provided their Command Group has no Morale Penalties.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo Líderes
+            Al determinar la Iniciativa, el Líder de la Escolta tira un d10 adicional (sin gastar una Acción de Mando) siempre que su Grupo de Mando no tenga Penalizadores de Moral.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1540,8 +1625,9 @@ When determining Initiative, the Retinue Leader rolls an additional d10 (withou
       <profiles>
         <profile name="Faithful" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="3d1f-b0ab-e016-c14d">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">The Group is treated as having a Shield Roll of 9 or 0 when not equipped
-with a Shield. If equipped with Shields this Ability has no effect.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            El Grupo se considera que tiene una Salvación de 9 o 0 si no está equipado con un Escudo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1553,7 +1639,9 @@ with a Shield. If equipped with Shields this Ability has no effect.</characteris
       <profiles>
         <profile name="Fear" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="10e8-02a6-1118-c31b">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Opponents must pass a Morale Check to Charge this Group.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Los oponentes deben superar un chequeo de Moral para Cargar contra este Grupo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1565,9 +1653,11 @@ with a Shield. If equipped with Shields this Ability has no effect.</characteris
       <profiles>
         <profile name="Follow me" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="77fc-6dd6-8630-534e">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Once per round when this Group activates for a Movement Action, a single friendly Group within 6&quot; may also be activated for a free Movement Action.
-This free Action counts towards the Group&apos;s maximum Actions.
-Both Groups must finish their movement within 6&quot; of each other.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Una vez por turno, cuando este Grupo se activa para una Acción de Movimiento, un único Grupo aliado dentro de 6" también puede ser activado para realizar una Acción de Movimiento gratuita.
+            Esta Acción gratuita cuenta para el número máximo de Acciones del Grupo.
+            Ambos Grupos deben finalizar su movimiento dentro de 6" uno del otro.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1575,12 +1665,14 @@ Both Groups must finish their movement within 6&quot; of each other.</characteri
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="2"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Formidable" hidden="false" id="0da8-b0c2-8c82-86e7">
+    <selectionEntry type="upgrade" import="true" name="Formidable (Héroe)" hidden="false" id="0da8-b0c2-8c82-86e7">
       <profiles>
-        <profile name="Formidable" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="43f7-bbe6-a1a8-2c61">
+        <profile name="Formidable (Héroe)" typeId="6dce-48d1-461b-e4d2" typeName="Abilitie" hidden="false" id="43f7-bbe6-a1a8-2c61">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Commander only. 
-Ignore the first successful casualty suffered by this Commander’s Command Group.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo Héroes.
+            Ignora la primera baja exitosa sufrida por el Grupo de Mando de este Héroe.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1592,7 +1684,9 @@ Ignore the first successful casualty suffered by this Commander’s Command Gro
       <profiles>
         <profile name="Glory seekers" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="d27b-7f12-5fb9-91a9">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Ignore the negative effects of Morale Penalties in Melee Combat.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Ignora los efectos negativos de los Penalizadores de Moral en Combate Cuerpo a Cuerpo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1604,7 +1698,9 @@ Ignore the first successful casualty suffered by this Commander’s Command Gro
       <profiles>
         <profile name="Gutter thug" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="4a88-e2d6-7b80-7123">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Each successfully defended Attack in Melee generates a bonus Attack.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Cada ataque defendido con éxito en combate cuerpo a cuerpo genera un Ataque adicional.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1616,18 +1712,21 @@ Ignore the first successful casualty suffered by this Commander’s Command Gro
       <profiles>
         <profile name="Holy relic" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="bf06-ff2f-a635-0ee8">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">When the Group removes Morale Penalties in the Housekeeping phase, it
-automatically removes 1 additional Morale Penalty.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Cuando el Grupo elimina Moral en la fase de Mantenimiento, elimina  1 adicional.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Inspired leader" hidden="false" id="2be2-097f-f079-c118">
+    <selectionEntry type="upgrade" import="true" name="Líder Inspirador (Héroe)" hidden="false" id="2be2-097f-f079-c118">
       <profiles>
-        <profile name="Inspired leader" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="8ea7-6fce-3ed5-8db9">
+        <profile name="Líder Inspirador (Héroe)" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="8ea7-6fce-3ed5-8db9">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Commander only.
-All friendly warriors with Line of Sight to this Commander gain +1 to Morale checks. This does stack with other bonuses.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo Héroes.
+            Todos los Guerreros aliados que tengan LDT a este Héroe obtienen +1 a los chequeos de Moral.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1639,8 +1738,9 @@ All friendly warriors with Line of Sight to this Commander gain +1 to Morale ch
       <profiles>
         <profile name="Master fletcher" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="8f42-d8e8-106c-97b6">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May only be chosen by groups armed with Bows or Crossbows.
-These Warriors increase their Long range by 5&quot;.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Estos Guerreros aumentan el Alcance Largo en 5" de Arcos y Ballestas.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1652,8 +1752,9 @@ These Warriors increase their Long range by 5&quot;.</characteristic>
       <profiles>
         <profile name="Measured shot" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="ce42-8b63-59c4-5419">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">When the Group uses a Shoot Action, it gains 1 Attack dice provided the
-Group does not move.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Cuando el Grupo realiza una Acción de Disparo, obtiene 1 dado de Ataque siempre que el Grupo no se mueva.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1665,9 +1766,10 @@ Group does not move.</characteristic>
       <profiles>
         <profile name="Nimble" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="739b-8666-2787-ff4e">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May only be chosen by groups that are not equipped with armour.
-The Group treats Difficult Terrain as Passable and Very Difficult Terrain
-as Difficult. In addition the Group may Swim in Deep Rivers and Lakes.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo puede ser elegido por grupos que no estén equipados con armadura.
+            El Grupo trata el Terreno Difícil como Transitable y el Terreno Muy Difícil como Difícil. Además, el Grupo puede Nadar en Ríos Profundos y Lagos.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1679,8 +1781,9 @@ as Difficult. In addition the Group may Swim in Deep Rivers and Lakes.</characte
       <profiles>
         <profile name="Old soldiers" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="39ba-8369-e7df-3b7a">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">The first time the Group is Charged in Melee each round, it may make a free Attack Back Reaction.
-This does not count towards the Group&apos;s maximum Actions per Round.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            La primera vez que el Grupo es Cargado en Combate Cuerpo a Cuerpo cada turno, puede realizar una Reacción de CONTRAATACAR gratuita.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1695,7 +1798,9 @@ This does not count towards the Group&apos;s maximum Actions per Round.</charac
       <profiles>
         <profile name="Open up" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="67b5-249a-e926-a8f0">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Opponents do not receive any bonuses for a Defence Action or Defend Reaction in Melee Combat.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Los oponentes no reciben ningún bono por realizar una Acción o una Reacción de DEFENDER en Combate Cuerpo a Cuerpo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1707,8 +1812,9 @@ This does not count towards the Group&apos;s maximum Actions per Round.</charac
       <profiles>
         <profile name="Rage" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="33bb-7a08-4b8e-6e54">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">If the Group Attacks Back in Melee, Warriors removed as casualties
-caused by the initial Attack still contribute Attack dice.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Si el Grupo realiza un CONTRAATACAR en Combate Cuerpo a Cuerpo, los Guerreros eliminados como bajas por el ataque inicial siguen contribuyendo con dados de Ataque.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1720,7 +1826,9 @@ caused by the initial Attack still contribute Attack dice.</characteristic>
       <profiles>
         <profile name="Raise shields" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="bd9d-b086-2ac3-9269">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">When the Group has a Defence Action or Reaction, it gains +2 to its Shield Rolls as well as Defence Rolls.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Cuando el Grupo realiza una Acción o Reacción de DEFENDER, obtiene +2 a su Salvación así como a la Defensa.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1732,22 +1840,26 @@ caused by the initial Attack still contribute Attack dice.</characteristic>
       <profiles>
         <profile name="Robust" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="639d-31c2-85b8-125e">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Commander only.
-It takes one extra successful hit to remove this Commander as a casualty.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo Héroes
+            Se necesita un impacto exitoso adicional para eliminar a este Comandante como baja.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Skirmisher" hidden="false" id="d4e8-220e-62c0-19d5">
+    <selectionEntry type="upgrade" import="true" name="Hostigador" hidden="false" id="d4e8-220e-62c0-19d5">
       <costs>
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="2"/>
       </costs>
       <profiles>
-        <profile name="Skirmisher" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="d25c-2838-31ad-9298">
+        <profile name="Hostigador" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="d25c-2838-31ad-9298">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May only be chosen by groups that are not equipped with armour.
-The Group gains +1 to its Defence rolls against Ranged attacks.
-In addition the Group may Swim in Deep Rivers and Lakes.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo puede ser elegido por grupos que no estén equipados con armadura.
+            El Grupo obtiene +1 a sus tiradas de Defensa contra ataques a Distancia.
+            Además, el Grupo puede Nadar en Ríos Profundos y Lagos.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1756,7 +1868,9 @@ In addition the Group may Swim in Deep Rivers and Lakes.</characteristic>
       <profiles>
         <profile name="Surefooted" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="2faa-0342-0422-0961">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May re-roll the Strength of the Charge dice if the first result leaves the Group making a failed Charge.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Puede repetir la tirada de los dados de Fuerza de la Carga si el primer resultado provoca que el Grupo falle la Carga.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1764,15 +1878,17 @@ In addition the Group may Swim in Deep Rivers and Lakes.</characteristic>
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Veteran Crusader" hidden="false" id="565e-5269-c762-318a">
+    <selectionEntry type="upgrade" import="true" name="Cruzado veterano (héroe)" hidden="false" id="565e-5269-c762-318a">
       <costs>
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="3"/>
       </costs>
       <profiles>
-        <profile name="Veteran Crusader" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="0610-e8f9-577a-b2f2">
+        <profile name="Cruzado veterano (héroe)" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="0610-e8f9-577a-b2f2">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Commander Only.
-The Commander and his Command Group ignore their Morale Penalties when making Morale checks.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo Héroes
+            El Comandante y su Grupo de Mando ignoran sus Penalizadores de Moral al realizar chequeos de Moral.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1781,10 +1897,12 @@ The Commander and his Command Group ignore their Morale Penalties when making M
       <profiles>
         <profile name="Weapon choice" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="f934-d924-cbdd-28da">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">A Group may gain Weapon Choice by purchasing a Ranged Weapon in addition to a Melee Weapon (paying the full cost for both weapons).
-The Group may choose which weapon it wishes to use in each round.
-This will normally be when it makes its first Combat Action or Reaction.
-The Group must use the chosen weapon for the remainder of the round.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Solo puede ser elegido por Grupos de infantería armados con Lanzas o Alabardas / Armas de asta.
+            Cuando son Cargados por un Grupo Montado, la infantería puede realizar una Reacción de Preparación.
+            El Grupo de Caballería no puede elegir Arrollar y debe Cargar normalmente.
+            El Grupo Preparado realizará un Contraataque, y cualquier Guerrero eliminado como baja sigue contribuyendo con dados de Ataque.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1793,10 +1911,7 @@ The Group must use the chosen weapon for the remainder of the round.</characteri
       <profiles>
         <profile name="Brace" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="7964-51d5-ec6c-6bda">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May only be selected by infantry Groups with Spears or Bills / Polearms.
-When Charged by a mounted Group, the infantry may make a Brace Reaction.
-The Cavalry group cannot choose to Ride Down and must Charge as normal. 
-The Braced Group will Attack Back, with any Warriors who are removed as casualties contributing Attack dice.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1810,11 +1925,13 @@ The Braced Group will Attack Back, with any Warriors who are removed as casualt
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Every bloody sunday " hidden="false" id="36fc-f5b9-b5fa-3368">
+    <selectionEntry type="upgrade" import="true" name="Domingo de sangre" hidden="false" id="36fc-f5b9-b5fa-3368">
       <profiles>
-        <profile name="Every bloody sunday" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="2964-140d-79d2-018a">
+        <profile name="Domingo de sangre" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="2964-140d-79d2-018a">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Can move up to 3” and shoot with a Bow even if at Long range.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Puede moverse hasta 3" y disparar con un Arco, incluso si está a Larga distancia.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1823,7 +1940,9 @@ The Braced Group will Attack Back, with any Warriors who are removed as casualt
       <profiles>
         <profile name="Faith" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="462c-84c4-44a4-730e">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Ignore one Morale Penalty when making Morale (not Order) checks.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Ignora 1 de Moral al realizar chequeos de Moral (no de Orden).
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1832,7 +1951,9 @@ The Braced Group will Attack Back, with any Warriors who are removed as casualt
       <profiles>
         <profile id="8d9b-e8eb-bed2-1732" name="Live by the sword" hidden="false" typeId="6dce-48d1-461b-e4d2" typeName="Ability">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May re-roll one Melee Attack Dice against Groups who are not Knights (or their equivalent).</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Puede repetir un dado de Ataque Cuerpo a Cuerpo contra Grupos que no sean Caballeros (o su equivalente).
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1841,7 +1962,9 @@ The Braced Group will Attack Back, with any Warriors who are removed as casualt
       <profiles>
         <profile name="Marksman" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="3372-e698-bd16-1420">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">May shoot a Crossbow more than once each round. If they make a second shot, it always counts as at Long range.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Puede disparar una Ballesta más de una vez por turno. Si realiza un segundo disparo, siempre cuenta como a Alcance Largo.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1850,23 +1973,23 @@ The Braced Group will Attack Back, with any Warriors who are removed as casualt
       <profiles>
         <profile name="Martial respect" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="f89d-1af7-4b9c-9327">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">When a friendly Group takes a Morale check (not Order checks) within 6&quot; of a Group with this Ability, roll 2d10 and use the highest result.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Cuando un Grupo aliado realiza un chequeo de Moral (no los de Orden) dentro de 6" de un Grupo con esta Habilidad, tira 2d10 y utiliza el resultado más alto.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ride down" hidden="false" id="68e0-9ef1-13ab-3c30">
+    <selectionEntry type="upgrade" import="true" name="Arrollar (caballería)" hidden="false" id="68e0-9ef1-13ab-3c30">
       <profiles>
-        <profile name="Ride down" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="28a5-3eb9-4a84-5c53">
+        <profile name="Arrollar (caballería)" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="28a5-3eb9-4a84-5c53">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">When the mounted Knights Charge and are not Weary, they may choose to use Ride Down. If so, they gain +2 to their Attack rolls.
-During Combat Resolution, if the Group using Ride Down wins the combat, the defeated Group is not Forced Back. Instead, move each attacking Warrior directly forward (in the straight line used by their Charge move) by a number of inches equal to their full Movement value.
-Measured from the rearmost defending Warrior (the one furthest away in the direction LoS was drawn for the Charge). 
-If this movement would bring this group into base contact with a second enemy group, they make an immediate free Attack Action, counting as Charging but becoming Weary.
-Start the Combat process with Melee step 5 (Declare Reaction). 
-This does not count towards their maximum number of Actions.
-If this movement takes the Group off the table, it plays no further part in the game but does not count as destroyed - the enemy gains no Victory Points.</characteristic>
-          </characteristics>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">
+            Si no están fatigados, pueden elegir usar ARROLLAR. Si lo hacen, obtienen +2 a sus tiradas de Ataque.
+            Durante la Resolución del Combate, si el Grupo que usa ARROLLAR gana el combate, el Grupo derrotado no retrocede. En su lugar, mueve a cada Guerrero atacante directamente hacia adelante (en la línea recta) un número de pulgadas igual a su valor completo de Movimiento.
+            La medición se hace desde el Guerrero defensor más alejado de la carga.
+            Si este movimiento hace que el grupo entre en contacto de peana con un segundo grupo enemigo, realiza una Acción de ATACAR gratuita inmediata, contando como carga pero quedando Fatigado.
+            Se inicia el proceso de combate en el paso 5 de Combate cuerpo a cuerpo (Declarar Reacción).
+            Esto no cuenta para su número máximo de Acciones. Si este movimiento saca al Grupo de la mesa, no participa más en el juego pero no se considera destruido, y el enemigo no gana Puntos de Victoria.
+            </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -1874,7 +1997,7 @@ If this movement takes the Group off the table, it plays no further part in the�
       <profiles>
         <profile name="Sorry m&apos;lord" typeId="6dce-48d1-461b-e4d2" typeName="Ability" hidden="false" id="0c72-a4f7-ca93-8cf1">
           <characteristics>
-            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">If Broken and testing to Rally, ignore one additional Morale Penalty if within 6&quot; of a friendly Command Group.</characteristic>
+            <characteristic name="Effect" typeId="7537-0316-be9f-ca83">Si está Roto y realiza un chequeo para Reagruparse, ignora un penalizador de Moral adicional si se encuentra dentro de 6&quot de un Grupo de Mando aliado..</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2569,7 +2692,7 @@ If this movement takes the Group off the table, it plays no further part in the�
     </selectionEntryGroup>
     <selectionEntryGroup name="Bowman inherent abilities" id="f18f-1221-7c56-27fd" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Every bloody sunday (Inherent)" hidden="false" id="1ef1-8162-f047-0b30" type="selectionEntry" targetId="38c1-cd0f-2528-85f9" collective="true">
+        <entryLink import="true" name="Domingo de sangre(Inherent)" hidden="false" id="1ef1-8162-f047-0b30" type="selectionEntry" targetId="38c1-cd0f-2528-85f9" collective="true">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8db-4774-64c9-0741" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a4b-7473-0d66-cf44" includeChildSelections="false"/>
@@ -3774,7 +3897,7 @@ If this movement takes the Group off the table, it plays no further part in the�
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Cruelty" hidden="true" id="6861-928c-41dc-c064" type="selectionEntry" targetId="71f5-8ba0-7767-3934" collective="true">
+        <entryLink import="true" name="Cruel (Héroe)" hidden="true" id="6861-928c-41dc-c064" type="selectionEntry" targetId="71f5-8ba0-7767-3934" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c667-4d17-e779-b0a0" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a866-c5fc-70bf-3905" includeChildSelections="true"/>
@@ -3811,7 +3934,7 @@ If this movement takes the Group off the table, it plays no further part in the�
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Experienced tactician" hidden="true" id="b126-4752-9422-acfa" type="selectionEntry" targetId="54a4-d4fe-a86b-2206" collective="true">
+        <entryLink import="true" name="Estratega" hidden="true" id="b126-4752-9422-acfa" type="selectionEntry" targetId="54a4-d4fe-a86b-2206" collective="true">
           <modifiers>
             <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
               <repeats>
@@ -3880,7 +4003,7 @@ If this movement takes the Group off the table, it plays no further part in the�
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Formidable" hidden="true" id="bd3e-9872-d3e0-69da" type="selectionEntry" targetId="0da8-b0c2-8c82-86e7" collective="true">
+        <entryLink import="true" name="Formidable (Héroe)" hidden="true" id="bd3e-9872-d3e0-69da" type="selectionEntry" targetId="0da8-b0c2-8c82-86e7" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e7f-56d5-55c5-f983" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1e8d-819b-f110-b825" includeChildSelections="true"/>
@@ -3949,7 +4072,7 @@ If this movement takes the Group off the table, it plays no further part in the�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Inspired leader" hidden="true" id="d08a-8ba1-04de-6c92" type="selectionEntry" targetId="2be2-097f-f079-c118" collective="true">
+        <entryLink import="true" name="Líder Inspirador (Héroe)" hidden="true" id="d08a-8ba1-04de-6c92" type="selectionEntry" targetId="2be2-097f-f079-c118" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0aa5-f62b-4e90-cc14" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="97eb-5a78-9f08-2521" includeChildSelections="true"/>
@@ -4113,7 +4236,7 @@ If this movement takes the Group off the table, it plays no further part in the�
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Skirmisher" hidden="false" id="4da1-e81d-f0a7-7404" type="selectionEntry" targetId="d4e8-220e-62c0-19d5" collective="true">
+        <entryLink import="true" name="Hostigador" hidden="false" id="4da1-e81d-f0a7-7404" type="selectionEntry" targetId="d4e8-220e-62c0-19d5" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55e9-e7a1-a188-f83b" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c860-0568-20b0-21f3" includeChildSelections="true"/>
@@ -4155,7 +4278,7 @@ If this movement takes the Group off the table, it plays no further part in the�
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Veteran Crusader" hidden="true" id="4e84-6c64-e76e-55e9" type="selectionEntry" targetId="565e-5269-c762-318a" collective="true">
+        <entryLink import="true" name="Cruzado veterano (héroe)" hidden="true" id="4e84-6c64-e76e-55e9" type="selectionEntry" targetId="565e-5269-c762-318a" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ad1-112d-cce1-952d" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="947c-b4cf-76fa-2f9e" includeChildSelections="true"/>
@@ -4217,3 +4340,4 @@ If this movement takes the Group off the table, it plays no further part in the�
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </gameSystem>
+
