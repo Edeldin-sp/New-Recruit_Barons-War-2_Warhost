@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2392-4cc8-e601-408a" name="Barons war 2E - Warhost Catalogue" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="18e3-b985-9231-8295" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2392-4cc8-e601-408a" name="Barons war 2nd edition Catalogue" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="18e3-b985-9231-8295" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="ab6d-cec3-152b-7afd" name="Knights" hidden="false" collective="false" import="true" type="unit">
       <costs>
@@ -703,47 +703,9 @@
         <categoryLink targetId="2c08-30a5-a557-882a" id="8dc7-8a87-cde7-1ec2" primary="false" name="Commanders and Command Groups."/>
       </categoryLinks>
     </selectionEntry>
-    <!-- ===================== -->
-    <!-- ORCOS SALVAJES -->
-    <!-- ===================== -->
-    <selectionEntry type="unit" import="true" name="Guerrero Orco" hidden="false" id="Orcos-GuerreroOrco">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Guerrero Orco" hidden="false" id="Orcos-GuerreroOrco-model">
-          <entryLinks>
-            <entryLink import="true" name="Nivel de experiencia" hidden="false" id="Orc-W-nivel-experiencia-id" type="selectionEntryGroup" targetId="Orc-W-nivel-experiencia" sortIndex="1" collective="true">
-              <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Guerrero Orco escudo" hidden="false" id="Orc-W-escudo-id" type="selectionEntryGroup" targetId="Orc-W-escudo" collective="true"/>
-            <entryLink import="true" name="Guerrero Orco arma" hidden="false" id="Orc-W-arma-id" type="selectionEntryGroup" targetId="Orc-W-arma" sortIndex="2" collective="true"/>
-            <entryLink import="true" name="Guerrero Orco arma distancia" hidden="false" id="Orc-W-distancia-id" type="selectionEntryGroup" targetId="Orc-W-arco" collective="true"/>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="Guerrero-Orco-constraint"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <categoryLinks>
-        <categoryLink targetId="cat-Orcos-Basicas" id="Orcos-GuerreroOrco-id" primary="true" name="Tropas Básicas"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Habilidades Salvajes" hidden="false" id="Orcos-Salvajes-Habilidades" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fbf-4bde-0b6c-6449" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Odio Salvaje" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true"/>
-      </entryLinks>
-    </selectionEntry>
-    <!-- ===================== -->
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Orcos - Arrogancia" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
+    <entryLink import="true" name="Feudal european faction" hidden="false" id="ab6d-c767-aa34-a9ad" type="selectionEntry" targetId="1cf4-0117-8176-16be">
       <categoryLinks>
         <categoryLink targetId="51de-724e-3e29-3c7a" id="5a1b-7e1f-d893-c9de" primary="true" name="Faction"/>
       </categoryLinks>
