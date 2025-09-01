@@ -41,13 +41,11 @@
         <categoryLink primary="true" name="Tropa Básicas" targetId="cat-tropas_basicas" id="orcarmy-orc-cat-tropas_basicas"/>
       </categoryLinks>
       <entryLinks>
-        <!-- <entryLink import="true" name="Feudal European abilities" hidden="false" id="9731-9956-97f5-40d5" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
+        <entryLink import="true" name="Feudal European abilities" hidden="false" id="9731-9956-97f5-40d5" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ee9-02f7-68ef-038b" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Spearman inherent abilities" hidden="false" id="c9ea-08d1-f8e3-7da7" type="selectionEntryGroup" targetId="49cf-b8c7-c73f-0d8d" collective="true" sortIndex="3"/>
-        -->
         <entryLink type="selectionEntry" import="true" hidden="false" sortIndex="1" name="Grupo de mando" targetId="selector-mando" id="orcarmy-orc-selector-mando">
           <modifiers>
             <modifier type="add" value="cat-limit-mando" field="category" scope="parent" affects="self.entries.forces.recursive">
