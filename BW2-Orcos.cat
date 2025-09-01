@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="BW2-orcos-salvajes" name="Orcos" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="game-barons_war-warhost" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="catalogue">
-  <!-- LÍMITES -->
+<catalogue id="BW2-orcos-salvajes" name="Orcos" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="18e3-b985-9231-8295" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="catalogue">
   <selectionEntries>
+    <!-- LÍMITES -->
     <categoryEntry name="Tropas novatas" hidden="true" id="cat-limit-green">
       <constraints>
         <constraint type="min" value="10" field="limit::type-cost" scope="roster" shared="true" id="cat-limit-green_constraint" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
@@ -12,9 +12,7 @@
         <constraint type="max" value="50" field="limit::type-cost" scope="roster" shared="true" id="cat-limit-mando-constraint" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
       </constraints>
     </categoryEntry>
-  </selectionEntries>
-  <!-- UNIDADES -->
-  <selectionEntries>
+    <!-- UNIDADES -->
     <selectionEntry type="unit" import="true" name="Orco" hidden="false" id="orcarmy-orc">
       <selectionEntries>
         <selectionEntry type="model" import="true" hidden="false" sortIndex="2" name="Guerrero orco" id="orcarmy-warrior-model">
@@ -38,14 +36,9 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink primary="true" name="Tropa Básicas" targetId="cat-tropas_basicas" id="orcarmy-orc-cat-tropas_basicas"/>
+        <categoryLink primary="true" name="Tropas Básicas" targetId="cat-tropas_basicas" id="orcarmy-orc-cat-tropas_basicas"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="9731-9956-97f5-40d5" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ee9-02f7-68ef-038b" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink type="selectionEntry" import="true" hidden="false" sortIndex="1" name="Grupo de mando" targetId="selector-mando" id="orcarmy-orc-selector-mando">
           <modifiers>
             <modifier type="add" value="cat-limit-mando" field="category" scope="parent" affects="self.entries.forces.recursive">
