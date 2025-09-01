@@ -9,7 +9,7 @@
     </categoryEntry>
     <categoryEntry name="Grupos de mando" hidden="false" id="cat-limit-mando">
       <constraints>
-        <constraint type="max" value="50" field="limit::f655-59ab-f98e-f417" scope="roster" shared="true" id="8644-0148-f7f2-e0db" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+        <constraint type="max" value="50" field="limit::type-cost" scope="roster" shared="true" id="cat-limit-mando-constraint" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
       </constraints>
     </categoryEntry>
   </selectionEntries>
