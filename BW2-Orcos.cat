@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="BW2-orcos-salvajes" name="Orcos" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="game-barons_war-warhost" gameSystemRevision="1" xmlns="" type="catalogue">
-<!-- LÍMITES -->
+  <!-- LÍMITES -->
   <selectionEntries>
-    <categoryEntries>
     <categoryEntry name="Tropas novatas" hidden="true" id="cat-limit-green">
       <constraints>
         <constraint type="min" value="10" field="limit::type-cost" scope="roster" shared="true" id="cat-limit-green_constraint" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
