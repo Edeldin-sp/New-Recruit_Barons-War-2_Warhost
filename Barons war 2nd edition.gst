@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem name="Barons War 2nd - Warhost" id="18e3-b985-9231-8295" revision="1" battleScribeVersion="2.03" xmlns="" type="gameSystem" library="true">
+<gameSystem name="Barons War 2nd - Warhost" id="18e3-b985-9231-8295" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" library="true">
   <!-- PUBLICACIONES -->
   <publications>
     <publication name="Barons War 2nd edition main rulebook" id="5fd6-9a6b-eead-8066"/>
@@ -68,7 +68,7 @@
   <forceEntries>
     <forceEntry name="Séquito" hidden="false" id="force-sequito">
       <categoryLinks>
-        <categoryLink name="Tropas Básica" hidden="false" id="force-cat-tropas_basicas" targetId="cat-tropas_basicas"/>
+        <categoryLink name="Tropas Básicas" hidden="false" id="force-cat-tropas_basicas" targetId="cat-tropas_basicas"/>
         <categoryLink name="Tropas Especiales" hidden="false" id="force-cat-tropas_especiales" targetId="cat-tropas_especiales"/>
         <categoryLink name="Personajes" hidden="false" id="force-cat-tropas_personajes" targetId="cat-tropas_personajes"/>
         <categoryLink name="Faction" hidden="false" id="force-cat-faccion" targetId="cat-faccion"/>
