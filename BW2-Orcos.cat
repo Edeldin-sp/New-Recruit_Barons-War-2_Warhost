@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="BW2-orcos-salvajes" name="Orcos" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="game-barons_war-warhost" gameSystemRevision="1" xmlns="" type="catalogue">
+<catalogue id="BW2-orcos-salvajes" name="Orcos" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="game-barons_war-warhost" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="catalogue">
   <!-- LÍMITES -->
   <selectionEntries>
     <categoryEntry name="Tropas novatas" hidden="true" id="cat-limit-green">
